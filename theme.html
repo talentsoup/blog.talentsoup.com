@@ -701,12 +701,12 @@ a.twitter-rollover:hover {
 	{block:AskEnabled}<a href="/ask" title="{AskLabel}">{text:Ask Button Text}</a>{/block:AskEnabled}
 	{block:SubmissionsEnabled}<a href="/submit" title="Submissions to this site are welcome!">{text:Submissions Button Text}</a>{/block:SubmissionsEnabled}
 	{block:IfShowArchiveButton}<a href="/archive" title="Go to post archive">{lang:Archive}</a>{/block:IfShowArchiveButton}
-	{block:IfShowRSSButton}<a href="{RSS}" title="Subscribe to my RSS Feed">{lang:RSS}</a>{/block:IfShowRSSButton}
+	{block:IfShowRSSButton}<a href="http://feeds.feedburner.com/TalentsoupChefsBlog" title="Subscribe to my RSS Feed">{lang:RSS}</a>{/block:IfShowRSSButton}
 	</div>
 </div>{/block:IfShowTopButtons}
 
 <div id="icon-block">
-<a href="feed://blog.talentsoup.com/rss" target="_self" title="TalentSoup RSS Feed" class="rss-rollover"></a>
+<a href="http://feeds.feedburner.com/TalentsoupChefsBlog" target="_self" title="TalentSoup RSS Feed" class="rss-rollover"></a>
 <a href="http://www.facebook.com/TalentSoup" target="_blank" title="TalentSoup Facebook Page" class="fb-rollover"></a>
 <a href="https://twitter.com/talentsoup" target="_blank" title="TalentSoup Twitter Page" class="twitter-rollover"></a>
 </div>
@@ -718,7 +718,7 @@ a.twitter-rollover:hover {
 	</a>
 </h1>
 
-{block:Description}<div id="description">{Description}</div>{/block:Description}
+{block:Description}<div id="description">{Description}<br/> See our amazing talent <a href="http://work.talentsoup.com">at work</a> on the appropriately named <a href="http://work.talentsoup.com">AT WORK BLOG</a><br/>Shop for talent (or get registered as one) <a href="http://www.talentsoup.com">At TalentSoup.com</a></div>{/block:Description}
 
 
 {block:IfShowSearchBar}{block:SearchForm}<div id="search">
